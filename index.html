@@ -134,9 +134,9 @@
     tab-size: 4;
     -moz-tab-size: 4;
   }
-  #editor p { margin: 0 0 var(--para-gap); }
-  #editor.first-indent p { text-indent: 1.6em; }
-  #editor.first-indent p:first-child { text-indent: 0; }
+  #editor > p, #editor > div { margin: 0 0 var(--para-gap); }
+  #editor.first-indent > p, #editor.first-indent > div { text-indent: 1.6em; }
+  #editor.first-indent > p:first-child, #editor.first-indent > div:first-child { text-indent: 0; }
   #editor h1 { font-size: 1.7em; margin: .6em 0 .3em; line-height: 1.25; }
   #editor h2 { font-size: 1.35em; margin: .6em 0 .3em; line-height: 1.25; }
   #editor h3 { font-size: 1.15em; margin: .6em 0 .3em; line-height: 1.25; }
@@ -263,6 +263,6 @@
 </head>
 <body>
   <div id="app"></div>
-  <script src="./app.js?v=123"></script>
+  <script src="./app.js?v=124"></script>
 </body>
 </html>
