@@ -1,10 +1,10 @@
 {
   "identifier": "dev.bookwriter.manuscript",
   "name": "Manuscript",
-  "description": "A book-writing editor for Standard Notes: chapter binder, live word counts, writing targets, focus/typewriter mode, and manuscript export.",
+  "description": "A book-writing editor for Standard Notes: chapter binder, word counts, targets, focus/typewriter mode, footnotes, tables, images, citations, and export.",
   "content_type": "SN|Component",
   "area": "editor-editor",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "url": "https://justice2425.github.io/sn-bookwriter/",
   "latest_url": "https://justice2425.github.io/sn-bookwriter/ext.json"
 }
